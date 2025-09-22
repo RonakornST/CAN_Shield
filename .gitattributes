@@ -1,0 +1,15 @@
+# KiCad project files (force LF)
+*.kicad_pro text eol=lf
+*.kicad_prl text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+
+# CAD / binary files
+*.step binary
+*.stp binary
+*.3dshapes/* binary
+
+# Default: normalize all text to LF
+* text=auto eol=lf
