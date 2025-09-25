@@ -1,4 +1,4 @@
-24910640228565178
+24912398919510821
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58421,6 +58421,13 @@ CONN-TH_9P-P5.08_MX128-5.08-09P-GN01-CU-Y-A
 0
 9
 9
+ImportFP
+CONN-TH_10P-P5.08_MX128-5.08-10P-GN01-CU-Y-A
+
+
+0
+10
+10
 ImportFP
 DB125-3.5-2P-GN-S_2025
 
