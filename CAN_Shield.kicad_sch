@@ -8,120 +8,6 @@
 		(date "15 nov 2012")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint_Flag"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 3.429 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Flag"
-				(at 3.302 4.191 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point (alternative flag-style design)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Flag_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.889 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.889 2.794)
-					(end 5.842 0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TestPoint_Flag_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -5074,12 +4960,6 @@
 		(uuid "455d8769-b5c6-4c58-a904-9b57fe529d3f")
 	)
 	(junction
-		(at 82.55 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5413d2b4-fafb-471b-9ddb-5d1778ac5705")
-	)
-	(junction
 		(at 49.53 82.55)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -5417,6 +5297,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1465b007-416b-4c5d-8002-2e7f791f61a6")
+	)
+	(wire
+		(pts
 			(xy 67.31 69.85) (xy 67.31 74.93)
 		)
 		(stroke
@@ -5434,16 +5324,6 @@
 			(type default)
 		)
 		(uuid "1746b820-d825-48bf-81c0-53b59423416e")
-	)
-	(wire
-		(pts
-			(xy 82.55 110.49) (xy 83.82 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "174c7e1b-6a30-4b25-8b98-5f3e9b15ef36")
 	)
 	(wire
 		(pts
@@ -5797,7 +5677,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 110.49) (xy 82.55 110.49)
+			(xy 74.93 110.49) (xy 83.82 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6037,16 +5917,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 110.49) (xy 125.73 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847d2715-4c13-42a7-bd5b-fc32d67e067e")
-	)
-	(wire
-		(pts
 			(xy 22.86 41.91) (xy 52.07 41.91)
 		)
 		(stroke
@@ -6194,16 +6064,6 @@
 			(type default)
 		)
 		(uuid "9de2e88e-0fc9-4b09-b812-51685dc9fbc7")
-	)
-	(wire
-		(pts
-			(xy 78.74 115.57) (xy 83.82 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e865615-e997-4d2c-9788-6120c5cf41b6")
 	)
 	(wire
 		(pts
@@ -6504,6 +6364,16 @@
 			(type solid)
 		)
 		(uuid "ed4af6f5-c1f9-4ac6-b35e-2b9ff5cd0eb3")
+	)
+	(wire
+		(pts
+			(xy 62.23 115.57) (xy 83.82 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cebd2e-e121-4d76-baf7-bf1654ff36ea")
 	)
 	(wire
 		(pts
@@ -11667,72 +11537,6 @@
 			(project "CAN_Shield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Flag")
-		(at 82.55 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "648c84e8-3ca7-4dc1-b05b-6332ee314ca5")
-		(property "Reference" "TP1"
-			(at 74.93 113.1571 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Flag"
-			(at 74.93 110.6171 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_3.0x3.0mm"
-			(at 77.47 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative flag-style design)"
-			(at 82.55 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a019ed2-4deb-4cb3-8a10-e8753cccb56f")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
