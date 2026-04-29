@@ -5411,7 +5411,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 134.62) (xy 241.3 134.62)
+			(xy 236.22 134.62) (xy 252.73 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5481,7 +5481,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 137.16) (xy 241.3 137.16)
+			(xy 236.22 137.16) (xy 252.73 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5591,7 +5591,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 139.7) (xy 241.3 139.7)
+			(xy 236.22 139.7) (xy 252.73 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5861,7 +5861,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 144.78) (xy 241.3 144.78)
+			(xy 236.22 144.78) (xy 252.73 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5911,7 +5911,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 129.54) (xy 241.3 129.54)
+			(xy 236.22 129.54) (xy 252.73 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6041,7 +6041,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 142.24) (xy 241.3 142.24)
+			(xy 236.22 142.24) (xy 252.73 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6261,6 +6261,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 127) (xy 252.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4afd1af-5248-40e4-85fa-595302ac7bf5")
+	)
+	(wire
+		(pts
 			(xy 22.86 72.39) (xy 52.07 72.39)
 		)
 		(stroke
@@ -6401,6 +6411,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 124.46) (xy 252.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c800947b-ac04-45b8-9779-fab237bd02f7")
+	)
+	(wire
+		(pts
 			(xy 78.74 140.97) (xy 83.82 140.97)
 		)
 		(stroke
@@ -6421,7 +6441,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 132.08) (xy 241.3 132.08)
+			(xy 236.22 132.08) (xy 252.73 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9403,7 +9423,7 @@
 		(uuid "3911220d-b117-4874-8479-50c0285caa70")
 	)
 	(label "GPIO4{slash}GPCLK0"
-		(at 224.79 127 0)
+		(at 236.22 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9484,7 +9504,7 @@
 		(uuid "511bdd75-6922-4dc7-9a62-3fc6dc5ba383")
 	)
 	(label "GPIO15{slash}RXD0"
-		(at 237.49 132.08 180)
+		(at 236.22 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9564,7 +9584,7 @@
 		(uuid "6a63dbe8-50e2-4ffb-a55f-e0df0f695e9b")
 	)
 	(label "GPIO27"
-		(at 224.79 137.16 0)
+		(at 236.22 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9594,7 +9614,7 @@
 		(uuid "831c710c-4564-4e13-951a-b3746ba43c78")
 	)
 	(label "GPIO14{slash}TXD0"
-		(at 237.49 129.54 180)
+		(at 236.22 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9664,7 +9684,7 @@
 		(uuid "a9ed66d3-a7fc-4839-b265-b9a21ee7fc85")
 	)
 	(label "GPIO17"
-		(at 224.79 134.62 0)
+		(at 236.22 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9744,7 +9764,7 @@
 		(uuid "be4b9f73-f8d2-4c28-9237-5d7e964636fa")
 	)
 	(label "GPIO18{slash}PCM.CLK"
-		(at 267.97 124.46 180)
+		(at 236.22 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9794,7 +9814,7 @@
 		(uuid "f9b80c2b-5447-4c6b-b35d-cb6b75fa7978")
 	)
 	(label "CAN_D+"
-		(at 224.79 142.24 0)
+		(at 236.22 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9804,7 +9824,7 @@
 		(uuid "fc9157c2-6cc7-4ca4-8ddd-f098f761f4fa")
 	)
 	(label "CAN_D-"
-		(at 224.79 144.78 0)
+		(at 236.22 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10604,7 +10624,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 224.79 139.7 270)
+		(at 236.22 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10613,7 +10633,7 @@
 		(fields_autoplaced yes)
 		(uuid "1367c296-ed11-4ab1-a175-f31014257eea")
 		(property "Reference" "#PWR6"
-			(at 218.44 139.7 0)
+			(at 229.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +10642,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 139.6999 90)
+			(at 232.41 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10631,7 +10651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 139.7 0)
+			(at 236.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10640,7 +10660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 139.7 0)
+			(at 236.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10649,7 +10669,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 139.7 0)
+			(at 236.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12947,7 +12967,7 @@
 	)
 	(symbol
 		(lib_id "ImportSymbol:MX128-5.08-09P-GN01-CU-Y-A")
-		(at 246.38 134.62 0)
+		(at 257.81 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12955,7 +12975,7 @@
 		(dnp no)
 		(uuid "923579d9-4a0d-4043-b736-9a2c7debaedc")
 		(property "Reference" "U1"
-			(at 250.19 133.3499 0)
+			(at 261.62 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12964,7 +12984,7 @@
 			)
 		)
 		(property "Value" "MX128-5.08-09P-GN01-CU-Y-A"
-			(at 223.774 151.384 0)
+			(at 235.204 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12973,7 +12993,7 @@
 			)
 		)
 		(property "Footprint" "ImportFP:CONN-TH_9P-P5.08_MX128-5.08-09P-GN01-CU-Y-A"
-			(at 246.38 134.62 0)
+			(at 257.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12982,7 +13002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 134.62 0)
+			(at 257.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12991,7 +13011,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 134.62 0)
+			(at 257.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13000,7 +13020,7 @@
 			)
 		)
 		(property "Manufacturer Part" "MX128-5.08-09P-GN01-Cu-Y-A"
-			(at 246.38 134.62 0)
+			(at 257.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13009,7 +13029,7 @@
 			)
 		)
 		(property "Manufacturer" "MAX(迈旭)"
-			(at 246.38 134.62 0)
+			(at 257.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13018,7 +13038,7 @@
 			)
 		)
 		(property "Supplier Part" "C5290382"
-			(at 246.38 134.62 0)
+			(at 257.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13027,7 +13047,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 246.38 134.62 0)
+			(at 257.81 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
