@@ -12001,7 +12001,7 @@
 		)
 	)
 	(gr_text "SDA1"
-		(at 110.1 68.1 0)
+		(at 110.05 62.92 0)
 		(layer "F.SilkS")
 		(uuid "4d94882f-b10c-428e-87e0-9a7db8f2dbc5")
 		(effects
@@ -12111,7 +12111,7 @@
 		)
 	)
 	(gr_text "SCL1"
-		(at 110 63 0)
+		(at 110 68.04 0)
 		(layer "F.SilkS")
 		(uuid "dc933808-385c-4ad7-98af-a93b45e517e5")
 		(effects
