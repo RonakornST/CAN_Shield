@@ -1633,6 +1633,186 @@
 				)
 			)
 		)
+		(symbol "ImportSymbol:KF128-2.54-4P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KF128-2.54-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ImportFP:CONN-TH_4P-P2.54_KF128-2.54-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "KF128-2.54-4P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "KEFA(科发)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C474922"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KF128-2.54-4P_0_0"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "ImportSymbol:MCP2515T-I/SO"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5056,10 +5236,6 @@
 		(uuid "fd470e95-4861-44fe-b1e4-6d8a7c66e144")
 	)
 	(no_connect
-		(at 22.86 49.53)
-		(uuid "06ec8559-1643-4a4b-8775-a2223ed19103")
-	)
-	(no_connect
 		(at 83.82 133.35)
 		(uuid "082d66a7-b097-4238-a5bb-6125a7aa94cf")
 	)
@@ -5074,10 +5250,6 @@
 	(no_connect
 		(at 22.86 74.93)
 		(uuid "12283a58-d213-4b82-9117-79d7a0a01c82")
-	)
-	(no_connect
-		(at 22.86 36.83)
-		(uuid "206646cb-cb61-4732-a196-e38bc0c5ff9e")
 	)
 	(no_connect
 		(at 22.86 69.85)
@@ -5118,14 +5290,6 @@
 	(no_connect
 		(at 91.44 67.31)
 		(uuid "56d4f986-4a71-4962-ae2d-3bdc608563ff")
-	)
-	(no_connect
-		(at 22.86 39.37)
-		(uuid "641e95cd-9389-4ccf-b90d-f6a4de0c4acc")
-	)
-	(no_connect
-		(at 22.86 46.99)
-		(uuid "665c8845-4791-41cb-916b-c668b1516335")
 	)
 	(no_connect
 		(at 91.44 46.99)
@@ -5217,6 +5381,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 93.98) (xy 241.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a85a7f-2718-4720-8bd5-a47cacd14f4e")
+	)
+	(wire
+		(pts
 			(xy 52.07 46.99) (xy 22.86 46.99)
 		)
 		(stroke
@@ -5234,16 +5408,6 @@
 			(type default)
 		)
 		(uuid "07700b5d-f786-4801-80c3-49377deae234")
-	)
-	(wire
-		(pts
-			(xy 224.79 127) (xy 241.3 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "096271cf-b841-45b0-8d32-56853e8e90d5")
 	)
 	(wire
 		(pts
@@ -5387,16 +5551,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 124.46) (xy 241.3 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2797cf83-040c-47a4-b460-42cc528c281d")
-	)
-	(wire
-		(pts
 			(xy 49.53 44.45) (xy 49.53 64.77)
 		)
 		(stroke
@@ -5407,6 +5561,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 99.06) (xy 241.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1e9f99-2770-4ed8-a5bc-3174f03a8226")
+	)
+	(wire
+		(pts
 			(xy 45.72 138.43) (xy 29.21 138.43)
 		)
 		(stroke
@@ -5414,6 +5578,16 @@
 			(type default)
 		)
 		(uuid "2f756a8f-9197-4d92-95a1-af2fe525c7c4")
+	)
+	(wire
+		(pts
+			(xy 238.76 101.6) (xy 238.76 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32522177-6459-41c6-bbb7-beb160c1353b")
 	)
 	(wire
 		(pts
@@ -5837,6 +6011,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 96.52) (xy 223.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784300b7-100e-4244-bc7b-0c82c8ef8f40")
+	)
+	(wire
+		(pts
 			(xy 63.5 125.73) (xy 45.72 125.73)
 		)
 		(stroke
@@ -5904,6 +6088,16 @@
 			(type default)
 		)
 		(uuid "809d871f-6c6d-4ba8-91c9-6641a71f8425")
+	)
+	(wire
+		(pts
+			(xy 241.3 101.6) (xy 238.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fe0b8c-c689-4e40-9d98-417bcd6e8b8b")
 	)
 	(wire
 		(pts
@@ -6364,6 +6558,16 @@
 			(type solid)
 		)
 		(uuid "ed4af6f5-c1f9-4ac6-b35e-2b9ff5cd0eb3")
+	)
+	(wire
+		(pts
+			(xy 223.52 93.98) (xy 223.52 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30f6b4d-d270-4c9e-96ab-d92006c3ef82")
 	)
 	(wire
 		(pts
@@ -9108,16 +9312,6 @@
 		)
 		(uuid "0dd67284-6745-480e-93fe-d349761ce6a9")
 	)
-	(label "GPIO3{slash}SCL1"
-		(at 224.79 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18c0eb64-df1c-488a-b733-9d89b7bd897d")
-	)
 	(label "OSC2"
 		(at 45.72 138.43 0)
 		(effects
@@ -9208,6 +9402,26 @@
 		)
 		(uuid "3911220d-b117-4874-8479-50c0285caa70")
 	)
+	(label "GPIO4{slash}GPCLK0"
+		(at 224.79 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42974519-41bf-4e9b-86e4-09e449a0edad")
+	)
+	(label "GPIO3{slash}SCL1"
+		(at 238.76 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43daceba-7d16-4a09-a4bd-aff89ef01284")
+	)
 	(label "GPIO23"
 		(at 91.44 52.07 180)
 		(effects
@@ -9258,6 +9472,16 @@
 			(justify left bottom)
 		)
 		(uuid "5069ddbc-357e-4355-aaa5-a8f551963b7a")
+	)
+	(label "GPIO2{slash}SDA1"
+		(at 223.52 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "511bdd75-6922-4dc7-9a62-3fc6dc5ba383")
 	)
 	(label "GPIO15{slash}RXD0"
 		(at 237.49 132.08 180)
@@ -9409,16 +9633,6 @@
 		)
 		(uuid "9d507609-a820-4ac3-9e87-451a1c0e6633")
 	)
-	(label "GPIO2{slash}SDA1"
-		(at 224.79 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9dede9a8-c101-41b0-84cf-576f17804ac8")
-	)
 	(label "GPIO3{slash}SCL1"
 		(at 22.86 39.37 0)
 		(effects
@@ -9528,6 +9742,16 @@
 			(justify right bottom)
 		)
 		(uuid "be4b9f73-f8d2-4c28-9237-5d7e964636fa")
+	)
+	(label "GPIO18{slash}PCM.CLK"
+		(at 267.97 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cce01076-64ca-40bb-975a-f91fe25dcd83")
 	)
 	(label "GPIO10{slash}SPI0.MOSI"
 		(at 63.5 120.65 0)
@@ -10017,6 +10241,72 @@
 			(project "RaspberryPi-HAT"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 238.76 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aa10d27-8482-4aa5-9f56-4b814e75097e")
+		(property "Reference" "#PWR8"
+			(at 238.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 238.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "742b50ba-d234-40ee-aaa2-23516f8422cd")
+		)
+		(instances
+			(project "CAN_Shield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -12040,6 +12330,185 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ImportSymbol:KF128-2.54-4P")
+		(at 246.38 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85ba0e0c-47af-4a9e-a748-148196434f60")
+		(property "Reference" "J2"
+			(at 250.19 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KF128-2.54-4P"
+			(at 250.19 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ImportFP:CONN-TH_4P-P2.54_KF128-2.54-4P"
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C474922.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=EwUKUgEFQ1hcVFQDTlMIAlQHQgQNBFJUQ1QNAlFTRAcxVlNRQFVYVV1RRlJaUjsOAxUeFF5JWBYZEEoBGA4JCwFIFA4DSA%3D%3D"
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "KF128-2.54-4P"
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEFA(科发)"
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C474922"
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 246.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10ba1a92-e621-40d7-a6e7-782d15bfb05b")
+		)
+		(pin "4"
+			(uuid "e6101b1d-637a-40b3-ade3-d25dff8bf487")
+		)
+		(pin "2"
+			(uuid "9c378b54-37a5-49a8-8d30-c90ed17569d1")
+		)
+		(pin "3"
+			(uuid "2a42c96b-894d-4bf9-8f6d-337eacb16ffc")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 224.79 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ad3bee8-9121-4180-b19d-b26714499aa6")
+		(property "Reference" "#PWR10"
+			(at 224.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43f230b8-2f74-4d4a-8ae2-f7fbb8a8db99")
+		)
+		(instances
+			(project "CAN_Shield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
