@@ -11127,8 +11127,9 @@
 		(descr "Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x20 2.54mm double row")
 		(property "Reference" "J1"
-			(at 2.9192 2.4772 0)
+			(at 5.05 2.71 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bc18eda3-9011-4b2c-bdf7-c879fcf8e9f5")
 			(effects
 				(font
@@ -12455,14 +12456,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "a1819630-ac8d-4f31-a000-682f122b546b")
-	)
-	(segment
-		(start 110 52.8144)
-		(end 109.9568 52.8576)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "bc124038-395c-4901-88b1-2a73d1ce5dc2")
 	)
 	(segment
 		(start 115.99 52.11)
