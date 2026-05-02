@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" ""
+	(property "Reference" "Ref**"
 		(at -0.1746 -4.4275 0)
 		(layer "F.SilkS")
 		(uuid "3663a39b-f44c-4fce-a263-ca673f9b89b0")
@@ -86,8 +86,8 @@
 		)
 	)
 	(fp_line
-		(start -2.5262 -1.5214)
-		(end 2.5262 -1.5214)
+		(start -2.5262 -1.39)
+		(end 2.5262 -1.39)
 		(stroke
 			(width 0.1524)
 			(type default)
@@ -116,8 +116,8 @@
 		(uuid "3db86d9f-f34d-45d3-b236-242e0302bca4")
 	)
 	(fp_line
-		(start 2.5262 1.5214)
-		(end -2.5262 1.5214)
+		(start 2.5262 1.33)
+		(end -2.5262 1.33)
 		(stroke
 			(width 0.1524)
 			(type default)
