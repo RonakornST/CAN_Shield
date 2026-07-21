@@ -3,4 +3,6 @@
   (lib (name "EasyEDA")(type "KiCad")(uri "C:/Users/Ronakorn_Window/Documents/KiCad/8.0/footprints/DORABO DB125-3.5-2P-GN-S/EasyEDA.pretty")(options "")(descr "2x1 screw terminal"))
   (lib (name "CustomImport")(type "KiCad")(uri "${KIPRJMOD}/CustomImport.pretty")(options "")(descr ""))
   (lib (name "Cellholder")(type "KiCad")(uri "${KIPRJMOD}/Cellholder.pretty")(options "")(descr ""))
+  (lib (name "CAN_Shield_FP")(type "KiCad")(uri "${KIPRJMOD}/CAN_Shield_FP.pretty")(options "")(descr ""))
+  (lib (name "ImportFP")(type "KiCad")(uri "${KIPRJMOD}/ImportFP.pretty")(options "")(descr ""))
 )
